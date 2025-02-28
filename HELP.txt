@@ -1,0 +1,24 @@
+HTML
+
+CÓDIGOS:
+
+html:5 - Cria uma estrutura inicial para programar.
+
+<!DOCTYPE> - Dita qual é o tipo do documento criado, no caso <!DOCTYPE html> é um documento html.
+
+<html></html> - segura todo o corpo da página.
+
+<html lang=""></html> - O atributo "lang=" dita qual idioma sera usado escrevendo dentro dos parenteses, ex: <html lang="en"> ou <html lang="pt-br">.
+
+<head></head> -  Onde se escolhe os parâmetros de configuração do html e tambem é o Cabeçalho da página onde terá outros elementos.
+
+<meta charset="UTF-8"> - Modifica a codificação do texto.
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> - Esse meta é responsavel por configurar a tela, 
+o atributo name="viewport" é responsavel por configurar a visualização da estrutura do html em diversas plataformas,
+e o atributo content="width=device-width, initial-scale=1.0" é uma configuração padrão do html que diz a forma que o conteudo programado
+será exibido.
+
+<title></title> Título da página.
+
+<body></body> - É o corpo da página, resonsavel por armazenar tudo que aparecerá na pagina.
