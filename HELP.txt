@@ -1,24 +1,165 @@
 HTML
 
-CÓDIGOS:
 
-html:5 - Cria uma estrutura inicial para programar.
+CÓDIGOS BASES ESTRUTURAIS :
 
-<!DOCTYPE> - Dita qual é o tipo do documento criado, no caso <!DOCTYPE html> é um documento html.
+html:5 - Cria uma estrutura inicial para programar;
 
-<html></html> - segura todo o corpo da página.
+<!DOCTYPE> - Dita qual é o tipo do documento criado, no caso <!DOCTYPE html> é um documento html;
 
-<html lang=""></html> - O atributo "lang=" dita qual idioma sera usado escrevendo dentro dos parenteses, ex: <html lang="en"> ou <html lang="pt-br">.
+<html></html> - segura todo o corpo da página;
 
-<head></head> -  Onde se escolhe os parâmetros de configuração do html e tambem é o Cabeçalho da página onde terá outros elementos.
+<html lang=""></html> - O atributo "lang=" dita qual idioma sera usado escrevendo dentro dos parenteses, ex: <html lang="en"> ou <html lang="pt-br">;
 
-<meta charset="UTF-8"> - Modifica a codificação do texto.
+<head></head> -  Onde se escolhe os parâmetros de configuração do html e tambem é o Cabeçalho da página onde terá outros elementos;
+
+<meta charset="UTF-8"> - Modifica a codificação do texto;
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> - Esse meta é responsavel por configurar a tela, 
 o atributo name="viewport" é responsavel por configurar a visualização da estrutura do html em diversas plataformas,
 e o atributo content="width=device-width, initial-scale=1.0" é uma configuração padrão do html que diz a forma que o conteudo programado
-será exibido.
+será exibido;
 
-<title></title> Título da página.
+<title></title> Título da página;
 
-<body></body> - É o corpo da página, resonsavel por armazenar tudo que aparecerá na pagina.
+<body></body> - É o corpo da página, resonsavel por armazenar tudo que aparecerá na pagina;
+
+CONTAINERS:
+
+<header></header> - utilizada para criar um cabeçalho;
+
+<footer></footer> - utilizada para criar um rodapé;
+
+<main></main> - utilizada para conter o conteúdo principal da página;
+
+<aside></aside> - utilizada para construir barras laterais;
+
+<section></section> - utilizada para dividir o conteúdo em seções;
+
+<article></article> - utilizada para criar artigos, posts;
+
+<nav></nav> - utilizada para criar menus de navegação.
+
+
+CÓDIGOS DE TEXTOS:
+
+<h1></h1> - ultilizado para criar titulos, seu tamanho vai diminuindo quando aumentamos o numero de h, ex: <h1>, <h2>, <h3>, <h4>, <h5>, <h6>.
+sendo <h1> a maior fonte e <h6> a menor;
+
+<span></span> - não fornece nenhuma estilização, mas é útil para quando temos que estilizar um pedaço de texto;
+
+<p></p> - utilizada para construir parágrafos;
+
+<b></b> - utilizada para aplicar negrito à um texto;
+
+<i></i> - utilizada para aplicar itálico à um texto;
+
+<mark></mark> - utilizada para destacar um texto, como um marca-texto.
+
+<a></a> - utilizada para construir links, informamos para qual endereço o usuário será levado através do atributo href;
+
+<em></em> - utilizada para enfatizar um texto, também aplica o itálico;
+
+<strong></strong> - utilizada para informar que um texto é Gian Souza importante, também aplica o negrito; 
+
+<del></del> - utilizada para informar que um texto foi deletado, aplica o tachado no texto;
+
+<small></small> - utilizada para criar um texto com fonte menor;
+
+<blockquote></blockquote> - utilizada para inserir uma citação, aplica um margem no conteúdo;
+
+<address></address> - utilizada para inserir um endereço, também aplica o itálico;
+
+
+LISTAS
+
+<ul></ul> - lista não ordenada: 
+
+<ul> 
+    <li>HTML</li> 
+    <li>CSS</li> 
+    <li>JavaScript</li> 
+</ul>
+
+<ol></ol> - lista ordenada:
+
+<ol> 
+    <li>HTML</li> 
+    <li>CSS</li> 
+    <li>JavaScript</li> 
+</ol>
+
+
+TABELAS
+
+<table></table> - É o corpo da tabela;
+
+<thead></thead> - utilizada para construir o cabeçalho da tabela;
+
+<tfoot></tfoot> - utilizada para construir o rodapé da tabela;
+
+<tbody></tbody> - utilizada para construir o corpo, conteúdo, da tabela;
+
+<tr></tr> - utilizada para construir uma linha na tabela;
+
+<td></td> - utilizada para construir uma coluna na tabela; 
+
+<th></th> - utilizada para construir uma coluna no cabeçalho da tabela;
+
+<caption></caption> - utilizada para inserir uma legenda para a tabela;
+
+
+FORMULÁRIOS:
+
+<form></form> - container do formulário, todos os campos e botões deverão estar dentro desta tag;
+
+<input></input> - para inserir um campo;
+
+<input required=true> - Podemos informar ao navegador que um campo é obrigatório utilizando o atributo 
+required=“true”, ou apenas adicionamento o atributo required. Além disso quando utilizamos o type correto 
+para o input, o próprio navegador aplica uma validação, caso digitemos um valor incorreto Gian Souza para 
+um campo de e-mail, o navegador irá retornar uma mensagem alertando.
+
+Na tag <input> possuímos um atributo chamado type=, este atributo pode receber os valores:
+
+- text: para campos de texto;
+
+- email: para campos que receberão um e-mail;
+
+- tel: para campos que irão receber um número de telefone;
+
+- file: para campos que serão utilizados para anexar um arquivo;
+
+- color: para campos que receberão uma cor;
+
+- checkbox: para criar caixas de marcação;
+
+- radio: para criar campos de opção.
+
+<select></select> - para criar uma lista de opções, uma Gian Souza caixa de seleção;
+
+<button></button> - para inserir botões;
+
+
+MULTIMIDIA:
+
+<audio></audio> - utilizada para inserir um áudio na página;
+
+<video></video> - utilizada para inserir um vídeo na página;
+
+<img></img> -  utilizada para inserir uma imagem na página;
+
+Para inserir uma imagem utilizamos a tag img, utilizamos o atributo 
+src para informar o caminho da imagem e o atributo alt para informar 
+um texto que será exibido caso a imagem não carregue, esse texto também 
+será utilizado por leitores de tela, portanto é importante descrever a imagem 
+Gian Souza por motivos de acessibilidade.
+
+<audio controls> e <video autoplay>:
+
+Com o atributo controls habilitamos os botões para controlar a mídia, 
+como volume, play, pause, avançar e retroceder. Com o atributo autoplay 
+o arquivo será executado assim que for carregado, sem que o usuário tenha 
+que executar alguma ação.
+
+
