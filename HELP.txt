@@ -43,6 +43,8 @@ CONTAINERS:
 
 CÓDIGOS DE TEXTOS:
 
+Lorem - cria um texto para testes;
+
 <h1></h1> - ultilizado para criar titulos, seu tamanho vai diminuindo quando aumentamos o numero de h, ex: <h1>, <h2>, <h3>, <h4>, <h5>, <h6>.
 sendo <h1> a maior fonte e <h6> a menor;
 
@@ -72,6 +74,10 @@ sendo <h1> a maior fonte e <h6> a menor;
 
 
 LISTAS
+
+<hr /> - cria uma linha na horizontal;
+
+<vr /> - cria uma linha na vertical;
 
 <ul></ul> - lista não ordenada: 
 
