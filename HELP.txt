@@ -11,7 +11,7 @@ html:5 - Cria uma estrutura inicial para programar;
 
 <html lang=""></html> - O atributo "lang=" dita qual idioma sera usado escrevendo dentro dos parenteses, ex: <html lang="en"> ou <html lang="pt-br">;
 
-<head></head> -  Onde se escolhe os parâmetros de configuração do html e tambem é o Cabeçalho da página onde terá outros elementos;
+<head></head> -  Onde se escolhe os parâmetros de configuração do html
 
 <meta charset="UTF-8"> - Modifica a codificação do texto;
 
@@ -23,6 +23,7 @@ será exibido;
 <title></title> Título da página;
 
 <body></body> - É o corpo da página, resonsavel por armazenar tudo que aparecerá na pagina;
+
 
 CONTAINERS:
 
