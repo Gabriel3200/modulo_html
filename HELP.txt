@@ -80,6 +80,17 @@ LISTAS
 
 <vr /> - cria uma linha na vertical;
 
+Essas tags também podem receber atributos opcionais para personalizar sua aparência. Alguns atributos comuns incluem:
+
+- size: especifica a altura da linha horizontal. Por exemplo, <hr size="2"> cria uma linha mais alta do que <hr size="1">.
+
+- color: define a cor da linha. Você pode especificar uma cor usando um valor hexadecimal (#RRGGBB) ou um nome de cor 
+pré-definido. Por exemplo, <hr color="#FF0000"> define a linha como vermelha.
+
+- width: define a largura da linha horizontal. Pode ser especificada em pixels (por exemplo, <hr width="200">) ou em 
+porcentagem da largura da janela do navegador (por exemplo, <hr width="50%">).
+
+
 <ul></ul> - lista não ordenada: 
 
 <ul> 
