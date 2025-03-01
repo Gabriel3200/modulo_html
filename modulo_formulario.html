@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo Formulário</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Modulo Formulário
+        </h1>
+        <nav>
+            <a href="./index.html">HOME</a>
+            /
+            <a href="./modulo_texto.html">TEXTO</a>
+            /
+            <a href="./modulo_conteiners.html">CONTÂINERS</a>
+            /
+            <a href="./modulo_listas.html">LISTAS</a>
+            /
+            <a href="./modulo_tabelas.html">TABELAS</a>
+        </nav>
+        <hr />
+    </header>
+    <form action="">
+
+        <label for="text">Seu nome</label> <br/>
+        <input id="text" type="text" placeholder="Ex: João Paulo"><br/>
+
+        <label for="email">Seu email</label> <br/>
+        <input id="email" type="email" placeholder="Ex: exemplo@gmail.com"> <br/>
+
+        <label for="tel">Seu número</label> <br/>
+        <input id="tel" type="tel" placeholder="Ex:(00) 0000-0000"> <br/>
+
+        <label for="number">Sua idade</label> <br/>
+        <input type="number" id="number" max="99" min="1"> <br/>
+
+        <label for="file">Arquivo</label> <br/>
+        <input type="file" id="file"> <br/>
+
+        <label for="color">Escolha sua cor favorita</label> <br/>
+        <input type="color" id="color"> <br/>
+
+        <input type="checkbox" id="checkbox"> 
+        <label for="checkbox">Concordo e aceito os termos de contrato.</label> <br/>
+
+        <p>
+            Qual dessas cores você menos gosta?
+        </p>
+
+        <input type="radio" name="cor_escolhida" id="cor_vermelha">
+        <label for="cor_vermelha">Vermelho</label> 
+        <input type="radio" name="cor_escolhida" id="cor_azul">
+        <label for="cor_azul">Azul</label> <br/>
+        <input type="radio" name="cor_escolhida" id="cor_verde"> 
+        <label for="cor_verde">Verde</label> 
+        <input type="radio" name="cor_escolhida" id="cor_amarela">
+        <label for="cor_amarela">Amarelo</label> <br/>
+        <br/>
+        <label for="">De qual região do Brasil você é:</label>
+        <select name="" id="">
+            <option value="">Sul</option>
+            <option value="">Sudoeste</option>
+            <option value="">Centroeste</option>
+            <option value="">Norte</option>
+            <option value="">Nordeste</option>
+        </select>
+        <br/>
+        <textarea name="" id="" placeholder="Observações:"></textarea> <br/>
+        <button type="submit">
+            Enviar
+        </button>
+        <button type="reset">
+            Limpar
+        </button>
+ 
+    </form>
+</body>
+
+</html>

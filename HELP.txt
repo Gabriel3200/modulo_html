@@ -120,14 +120,25 @@ FORMULÁRIOS:
 
 <form></form> - container do formulário, todos os campos e botões deverão estar dentro desta tag;
 
+<label></label> - Cria um subtitulo rotulando os elementos do formulário;
+
 <input></input> - para inserir um campo;
 
-<input required=true> - Podemos informar ao navegador que um campo é obrigatório utilizando o atributo 
+ATRIBUTOS DO <input/>
+
+<input required=true />  
+
+Podemos informar ao navegador que um campo é obrigatório utilizando o atributo 
 required=“true”, ou apenas adicionamento o atributo required. Além disso quando utilizamos o type correto 
 para o input, o próprio navegador aplica uma validação, caso digitemos um valor incorreto Gian Souza para 
 um campo de e-mail, o navegador irá retornar uma mensagem alertando.
 
-Na tag <input> possuímos um atributo chamado type=, este atributo pode receber os valores:
+<input placeholder="" />
+
+É um atributo de suporte em que você escreve dentro dos parenteses oque você deseja que o usuário escreva 
+dentro do input, por exemplo: <input type="text" placeholder="Seu nome"> ou <input type="text" placeholder="Seu email">.
+
+Na tag <input> possuímos um atributo chamado type=, este atributo pode receber valores como:
 
 - text: para campos de texto;
 
@@ -141,11 +152,27 @@ Na tag <input> possuímos um atributo chamado type=, este atributo pode receber 
 
 - checkbox: para criar caixas de marcação;
 
-- radio: para criar campos de opção.
+- radio: para criar campos de opção;
+
+- password: Para campos que receberão dados importantes e serão ocultados.
 
 <select></select> - para criar uma lista de opções, uma Gian Souza caixa de seleção;
 
 <button></button> - para inserir botões;
+
+ATRIBUTOS DO <button/>
+
+<button type="submit">Enviar</button> - 
+
+Cria um botão "Enviar" com o parâmetro "submit" 
+no atributo "type", que tem a funcionalidade de 
+enviar o conteudo dentro do formulário.
+
+<button type="reset">Limpar</button> - 
+
+Cria um botão "Limpar" com o parâmetro "reset" 
+no atributo "type", que tem a funcionalidade de 
+Limpar o conteudo dentro do formulário.
 
 
 MULTIMIDIA:
