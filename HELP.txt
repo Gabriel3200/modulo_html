@@ -207,4 +207,8 @@ como volume, play, pause, avançar e retroceder. Com o atributo autoplay
 o arquivo será executado assim que for carregado, sem que o usuário tenha 
 que executar alguma ação.
 
+LINKS
+
+More Types: https://www.w3schools.com/html/html_form_input_types.asp
+
 
